@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery.min.js"></script>
+<script src="js/Home.js"></script>
+<style type="text/css" media="all">
+	body{
+		margin:0px;
+	}
+	
+	#imgTopDiv{
+		background-image:url(img/Home.png);	/*Note: To be replaced with home image*/
+		background-repeat:no-repeat; /*In order to prevent repeating of the backgroung image */
+		background-size:100%;
+		position:fixed;
+		width:100%;
+		height:80%;
+	}
+
+	#bottomDiv{
+		background-color:white;
+		position:fixed;
+		width:100%;
+		height:20%;
+		top:80%;
+		margin-right:0px;
+	}
+
+	button{
+		background-color:Grey;
+		width:49%;
+		height:100%;
+		border-radius:10px;
+		font-size:100%;
+	}
+</style>
+</head>
+<body>
+	<div id="imgTopDiv"></div>
+	<div id="bottomDiv">
+		<button id="login">Sign In</button>
+		<button id="signUp">Sign Up</button>
+	</div>
+</body>
+</html>

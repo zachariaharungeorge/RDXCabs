@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery.min.js"></script>
+<script src="js/Home.js"></script>
+<style type="text/css" media="all">
+	body{
+		margin:0px;
+	}
+	#formDiv {
+		position:fixed;
+		background-color:DarkCyan;
+		width:100%;
+		height:80%;
+	}
+	
+	#signUpDiv{
+		position:fixed;
+		top:80%;
+		background-color:DarkCyan;
+		width:100%;
+		height:20%;	
+	}
+
+	input[type=text],[type=email],[type=password]{
+		position:fixed;
+		width:100%;
+		border-radius:4px;
+		margin: 8px 0;
+		height:10%;
+		font-size:100%;
+	}
+
+	button{
+		background-color:Grey;
+		height:100%;
+		width:100%;
+		border-radius:10px;
+		border:1px solid DarkCyan;
+		font-size:100%;
+	}
+</style>
+</head>
+<body>
+<div>
+	<div id="formDiv">
+<!-- 		Note : Height is divided such that the sum is 100% -->
+		<div style="postion:fixed; height:20%"><input type="text" placeholder="Name"></div>
+		<div style="postion:fixed; height:20%"><input type="email" placeholder="Email Address"></div>
+		<div style="postion:fixed; height:20%"><input type="text" placeholder="Phone"></div>
+		<div style="postion:fixed; height:20%"><input type="text" placeholder="User Name"></div>
+		<div style="postion:fixed; height:20%"><input type="password" placeholder="Password"></div>
+	</div>
+	<div id="signUpDiv">
+		<button id="finalSignUp">Sign Up</button>
+	</div>
+</div>
+</body>
+</html>
